@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Ahmed Abdessamad| Portfolio</title>
+    <link rel="shortcut icon" href="res/logo.png" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+      integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div id="nav-container">
+      <div class="logo-nav animated delay-0.7s pulse">
+        <a href="#"><img id="image-logo" src="./res/logo.png" alt="" /></a>
+      </div>
+      <div class="nav">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#resume-container">Resume</a></li>
+          <a href="contact.html">
+            <li>Contact</li>
+          </a>
+        </ul>
+      </div>
+    </div>
+    <div id="main-container">
+      <div id="typer-container">
+        <h1>
+          <span id="typer-greet"> Hi, I'am</span>
+          <span
+            class="typer"
+            id="main"
+            data-words="Ahmed Abdessamad ,a Web Developer,a DevOps Engineer,a Trader Forex"
+            data-delay="90"
+            data-deleteDelay="1000"
+          ></span>
+          <span
+            class="cursor"
+            cursor-colors="#3399d5"
+            data-cursorDisplay="#"
+            data-owner="main"
+          ></span>
+        </h1>
+        <hr id="typer-hr" />
+        <p id="typer-description">
+         I never dream of success , I worked for it ..
+        </p>
+      </div>
+      <div id="picture-desc-container">
+        <img id="picture-desc" src="/res/myAvatar.svg" alt="" />
+      </div>
+    </div>
+
+    <div id="about" class="blue-background">
+      <div class="about-content">
+        <p class="greeting-text">Hello there, I'm Ahmed. Nice to meet you.</p>
+        <p class="description-text">
+          I am currently a junior at
+          <a
+            href="https://en.wikipedia.org/wiki/ESPRIT_(School)"
+            target="_blank"
+            title="more info about ESPRIT"
+            ><span class="university-name"> ESPRIT University </span
+            ><sup><i class="fas fa-info-circle"></i></sup></a
+          >, Tunis. I am majoring in DevOps engineering combined with development. I have a strong
+          interest in tasks that require both conceptual and analytical
+          thinking. I also have a passion for cryptocurrency.
+        </p>
+      </div>
+    </div>
+
+    <div id="resume">
+      <div id="resume-container" class="resume-container">
+        <div class="column" data-aos="fade-right" data-aos-delay="200">
+          <div class="column-logo">
+            <img class="svg-column-pic" src="res/code.svg" alt="" />
+          </div>
+          <div class="column-title">Back-end Developer</div>
+          <div class="column-description">
+            <p>
+              I like to code things from scratch.
+            </p>
+            <p class="para-column">Technologies I use:</p>
+            <p>Symfony, Laravel 6 , JavaEE , .NET </p>
+            <p class="para-column">Dev Tools :</p>
+            <p>RESTful Web Services</p>
+            <p>Github</p>
+            <p>Gitlab</p>
+            
+          </div>
+        </div>
+        <div class="column" data-aos="fade-up" data-aos-delay="400">
+          <div class="column-logo">
+            <img class="svg-column-pic" src="res/devoops.png" alt="" />
+          </div>
+          <div class="column-title">DevOps & Cloud</div>
+          <div class="column-description">
+            <p>
+              I enjoy installing, configuring, monitoring and automation 
+              systems.
+            </p>
+
+            <p class="para-column">Technologies I use:</p>
+            <p>Docker, Kubernetes, Jenkins, Ansible, Microsoft Azure, Vagrant, Docker Compose</p>
+            <p>Openstack, VMwareESXi, OpenVPN, AWS(EC2,ElasticBeanstalk,RDS), PfSense ,Nagios</p>
+
+            <p class="para-column">Systems I work with:</p>
+            <p>RedHat Enterprise Linux 8</p>
+            <p>Ubuntu 18.04 LTS</p>
+            
+          </div>
+        </div>
+        <div class="column" data-aos="fade-left" data-aos-delay="600">
+          <div class="column-logo">
+            <img class="svg-column-pic" src="res/professions.svg" alt="" />
+          </div>
+          <div class="column-title">Coding Instructor</div>
+          <div class="column-description">
+            <p>
+              I genuinely care about people, and love helping students work on
+              their ideas.
+            </p>
+            <p class="para-column">Things I teach:</p>
+            <p>Docker, K8s, Jenkins, Ansible, AWS </p>
+            
+            <p class="para-column">Instructor Stats:</p>
+            <p>1 training sessions</p>
+            <p>10+ students</p>
+            <p>70+ teaching hours</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="projects">
+      <div class="projects-content">
+        <div>
+          <p class="projects-text">My Recent Projects</p>
+          <p class="projects-desc-text">
+            Here are a few recent personal projects.
+          </p>
+        </div>
+      </div>
+      <div class="projects-container">
+        <div
+          id="single-project3"
+          data-aos="fade-up-right"
+          data-aos-delay="200"
+          class="single-project"
+        >
+          <img src="res/projet3.png" alt="" />
+          <div id="project3-sub-hover">
+            <div class="project-inside-desc">
+              MINUTES AUTO website which was to create in order to earn money using Google Adsense.
+            </div>
+            <a target="_blank"
+              ><div class="disabled-button">
+                Check source code <i class="fab fa-github icon-fa"></i></div
+            ></a>
+            <a href="https://minutesauto.com/" target="_blank"
+              ><div class="project-button">
+                Visit Website <i class="fas fa-chevron-right"></i></div
+            ></a>
+          </div>
+        </div>
+
+        <div
+          id="single-project3"
+          data-aos="fade-up"
+          data-aos-delay="200"
+          class="single-project"
+        >
+          <img src="res/springboot.png" alt="" />
+          <div id="project3-sub-hover">
+            <div class="project-inside-desc">
+              Set up CI/CD with Azure Pipelines (Spring Boot Application)
+            </div>
+            <a
+              href="https://github.com/ahmedabdessamad/Sping-boot-app"
+              target="_blank"
+              ><div class="project-button">
+                Check source code <i class="fab fa-github icon-fa"></i></div
+            ></a>
+            <a
+              href="https://khalifabl.github.io/youtube-clone-reactjs/"
+              target="_blank"
+              ><div class="disabled-button">
+                Visit Website <i class="fas fa-chevron-right"></i></div
+            ></a>
+          </div>
+        </div>
+        <div
+          id="single-project3"
+          data-aos="fade-up-left"
+          data-aos-delay="200"
+          class="single-project"
+        >
+          <img src="res/projet1.png" alt="" />
+          <div id="project3-sub-hover">
+            <div class="project-inside-desc">
+              I created my Youtube Channel in 2017 in which you will find course for beginner : c, c ++, blockchain, etc.
+            </div>
+            <a href="https://github.com/KhalifaBL/koujina" target="_blank"
+              ><div class="disabled-button">
+                Check source code <i class="fab fa-github icon-fa"></i></div
+            ></a>
+            <a
+              href="https://www.youtube.com/channel/UCtLIQWs_POZI02FwFZlweUQ/playlists"
+              target="_blank"
+              ><div class="project-button">
+                Visit Website <i class="fas fa-chevron-right"></i></div
+            ></a>
+          </div>
+        </div>
+      </div>
+
+      <a
+        class="see-more-a"
+        href="https://github.com/ahmedabdessamad?tab=repositories"
+        target="_blank"
+      >
+        <div class="see-more-button">
+          <i class="fab fa-github icon-fa"></i> See more on Github
+        </div>
+      </a>
+    </div>
+    <!-- <hr class="break-line">-->
+
+    <div id="companies-blue-div" class="blue-background">
+      <div class="about-content">
+        <p class="company-header">My previous internships</p>
+        <p class="company-description-text">
+          I'm proud to have interned at such amazing startups/ companies in the
+          past few years. I've had the chance to work with colleagues from
+          around the globe.
+        </p>
+      </div>
+    </div>
+    <div id="companies">
+      <div class="companies-images">
+        <div class="logo-container">
+          <a href="https://www.acoba.com" target="_blank">
+            <img
+              class="company-logo"
+              id="infra-logo"
+              f
+              src="res/acoba.png"
+              alt=""
+            />
+
+            <p class="internship-tag">
+              <i class="fas fa-map-marker-alt blue-color"></i> Monastir, TN
+              
+            </p>
+            <p class="internship-tag">
+              <i class="far fa-calendar-alt blue-color"></i> Jan 2020- June 2020
+            </p>
+            <p class="internship-tag">
+              <i class="fas fa-crosshairs blue-color"></i> web development Intern
+            </p>
+            <p class="internship-tag">
+              <i class="fas fa-link blue-color"></i> www.acoba.com
+            </p>
+          </a>
+        </div>
+
+        <div class="logo-container">
+          <a href="https://www.gomycode.tn/" target="_blank"
+            ><img class="company-logo" src="res/gmclogos.png" alt="" />
+            <p class="internship-tag">
+              <i class="fas fa-map-marker-alt blue-color"></i> Tunis, TN
+            </p>
+            <p class="internship-tag">
+              <i class="far fa-calendar-alt blue-color"></i> January 2021 - Present
+            </p>
+            <p class="internship-tag">
+              <i class="fas fa-crosshairs blue-color"></i> DevOps Instructor
+            </p>
+            <p class="internship-tag">
+              <i class="fas fa-link blue-color"></i> www.gomycode.tn
+            </p>
+          </a>
+        </div>
+        <div class="logo-container">
+          <a href="http://www.tac-tic.net/fr/" target="_blank"
+            ><img
+              id="accademis-logo"
+              class="company-logo"
+              src="res/tac-tic.png"
+              alt=""
+            />
+            <p class="internship-tag">
+              <i class="fas fa-map-marker-alt blue-color"></i> Ariana, TN
+            </p>
+            <p class="internship-tag">
+              <i class="far fa-calendar-alt blue-color"></i> August 2019 - Sep 2019
+            </p>
+            <p class="internship-tag">
+              <i class="fas fa-crosshairs blue-color"></i> DevOps & Cloud Intern
+            </p>
+            <p class="internship-tag">
+              <i class="fas fa-link blue-color"></i> www.tac-tic.net
+            </p>
+          </a>
+        </div>
+        <div class="logo-container">
+          <a href="https://www.tunisietelecom.tn/Fr" target="_blank"
+            ><img class="company-logo" src="res/Tunisie_Telecom_Logo.png" alt="" />
+            <p class="internship-tag">
+              <i class="fas fa-map-marker-alt blue-color"></i> Kansas, USA
+            </p>
+            <p class="internship-tag">
+              <i class="far fa-calendar-alt blue-color"></i> Jan 2019 - May 2019
+            </p>
+            <p class="internship-tag">
+              <i class="fas fa-crosshairs blue-color"></i> Network Intern
+            </p>
+            <p class="internship-tag">
+              <i class="fas fa-link blue-color"></i> www.tunisietelecom.tn
+            </p>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- 
+    <div id="pictures">
+      <div class="projects-content">
+        <div>
+          <p class="projects-text">My Latest Shots</p>
+          <p class="projects-desc-text">
+            I'm a photography enthusiast, I started learning by myself then I
+            took a photojournalism class at Emporia State University.
+          </p>
+        </div>
+      </div>
+      <div class="pics-container">
+        <div class="single-pic">
+          <img src="res/pic1-min.png" alt="" class="pic" />
+        </div>
+        <div class="single-pic">
+          <img src="res/pic2-min.png" alt="" class="pic" />
+        </div>
+        <div class="single-pic">
+          <img src="res/pic3-min.png" alt="" class="pic" />
+        </div>
+        <div class="single-pic">
+          <img src="res/pic4-m.jpg" alt="" class="pic" />
+        </div>
+        <div class="single-pic">
+          <img src="res/pic5-min.png" alt="" class="pic" />
+        </div>
+        <div class="single-pic">
+          <img src="res/pic6-min.jpg" alt="" class="pic" />
+        </div>
+      </div>
+
+      <a
+        class="see-more-a"
+        href="https://www.flickr.com/photos/khalifabenlazrek/"
+        target="_blank"
+      > 
+        <div class="see-more-button">
+          <i class="fab fa-flickr icon-fa"></i> See more on Flickr
+        </div>
+      </a>
+    </div>
+-->
+    <div id="quick-contact">
+      <div class="contact-title">Start a Project</div>
+      <div class="contact-desc">
+        Interested in working together? <br />
+        Shoot me a message.
+      </div>
+      <a class="see-more-a contact-button" href="mailto:ahmedabdessamed01@gmail.com">
+        <div class="see-more-button">Send a Message</div>
+      </a>
+    </div>
+
+    <div id="footer">
+      <div class="logo-footer">
+        <a href="#nav-container"
+          ><img id="image-logo-footer" src="./res/logo-white.png" alt=""
+        /></a>
+      </div>
+      <div class="normal-footer-text">
+        Passionate about Web development, <br />Software development, and
+        Cryptocurrency.
+      </div>
+      <div class="social-media-links">
+        <a
+          title="Github"
+          class="footer-link"
+          href="https://github.com/ahmedabdessamad?tab=repositories"
+          target="_blank"
+          ><i class="fab fa-github icon-fa"></i
+        ></a>
+        <a
+          title="linkedin"
+          class="footer-link"
+          href="https://www.linkedin.com/in/ahmed-abdessamad/"
+          target="_blank"
+          ><i class="fab fa-linkedin icon-fa"></i
+        ></a>
+        <a
+        title="YouTube"
+        class="footer-link"
+        href="https://www.youtube.com/channel/UCtLIQWs_POZI02FwFZlweUQ/playlists"
+        target="_blank"
+        ><i class="fab fa-youtube icon-fa"></i
+      ></a>
+        <a
+          title="email"
+          class="footer-link"
+          href="mailto:ahmedabdessamed01@gmail.com"
+          target="_blank"
+          ><i class="fas fa-envelope"></i
+        ></a>
+        <!--
+        <a
+          title="flickr"
+          class="footer-link"
+          href="https://www.flickr.com/photos/khalifabenlazrek/"
+          target="_blank"
+          ><i class="fab fa-flickr icon-fa"></i
+        ></a>-->
+      </div>
+      <div class="small-footer-text">
+        Made with love <i class="far fa-heart"></i>
+      </div>
+      <div class="small-footer-text">
+        Copyrights <i class="far fa-copyright"></i> AhmedAbdessamad
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script async src="https://unpkg.com/typer-dot-js@0.1.0/typer.js"></script>
+  </body>
+</html>

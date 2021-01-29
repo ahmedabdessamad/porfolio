@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Khalifa Ben Lazrek | Portfolio</title>
+    <link rel="shortcut icon" href="res/logok.png" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+      integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div id="nav-container">
+      <div class="logo-nav animated delay-0.7s pulse">
+        <a href="#"><img id="image-logo" src="./res/logok.png" alt="" /></a>
+      </div>
+      <div class="nav">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#resume-container">Resume</a></li>
+          <a href="contact.html">
+            <li>Contact</li>
+          </a>
+        </ul>
+      </div>
+    </div>
+    <div id="main-container">
+      <div id="typer-container">
+        <h1>
+          <span id="typer-greet"> Hi, I'am</span>
+          <span
+            class="typer"
+            id="main"
+            data-words="Khalifa Ben Lazrek,a Web Developer,a Network Engineer,a Photographer"
+            data-delay="90"
+            data-deleteDelay="1000"
+          ></span>
+          <span
+            class="cursor"
+            cursor-colors="#3399d5"
+            data-cursorDisplay="#"
+            data-owner="main"
+          ></span>
+        </h1>
+        <hr id="typer-hr" />
+        <p id="typer-description">
+          I design and code beautifully simple things, and I love what I do.
+        </p>
+      </div>
+      <div id="picture-desc-container">
+        <img id="picture-desc" src="/res/myAvatar.svg" alt="" />
+      </div>
+    </div>
+
+    <div id="about" class="blue-background">
+      <div class="about-content">
+        <p class="greeting-text">Hello there, I'm Khalifa. Nice to meet you.</p>
+        <p class="description-text">
+          I am currently a junior at
+          <a
+            href="https://fr.wikipedia.org/wiki/Institut_national_des_sciences_appliqu%C3%A9es_et_de_technologie"
+            target="_blank"
+            title="more info about INSAT"
+            ><span class="university-name"> Insat University </span
+            ><sup><i class="fas fa-info-circle"></i></sup></a
+          >, Tunis. I am majoring in Networking engineering combined with design
+          and development. I recently finished a full-year exchange program at
+          <a
+            href="https://en.wikipedia.org/wiki/Emporia_State_University"
+            target="_blank"
+            title="more info about ESU"
+            ><span class="university-name"> Emporia State University </span
+            ><sup><i class="fas fa-info-circle"></i></sup></a
+          >, USA, where I did Computer Science as a major. I have a strong
+          interest in tasks that require both conceptual and analytical
+          thinking. I also have a passion for photography.
+        </p>
+      </div>
+    </div>
+
+    <div id="resume">
+      <div id="resume-container" class="resume-container">
+        <div class="column" data-aos="fade-right" data-aos-delay="200">
+          <div class="column-logo">
+            <img class="svg-column-pic" src="res/code.svg" alt="" />
+          </div>
+          <div class="column-title">Front-end Developer</div>
+          <div class="column-description">
+            <p>
+              I like to code things from scratch, and enjoy bringing ideas to
+              life in the browser.
+            </p>
+            <p class="para-column">Technologies I use:</p>
+            <p>HTML, CSS, JS, jQuery, React JS, Bootsrap</p>
+            <p class="para-column">Dev & Design Tools :</p>
+            <p>Github</p>
+            <p>Gitlab</p>
+            <p>Adobe Illustrator</p>
+            <p>Adobe Photoshop</p>
+          </div>
+        </div>
+        <div class="column" data-aos="fade-up" data-aos-delay="400">
+          <div class="column-logo">
+            <img class="svg-column-pic" src="res/system.svg" alt="" />
+          </div>
+          <div class="column-title">System Administrator</div>
+          <div class="column-description">
+            <p>
+              I enjoy installing, configuring, monitoring and troubleshooting
+              systems.
+            </p>
+            <p class="para-column">Systems I work with:</p>
+            <p>RedHat Enterprise Linux 8</p>
+            <p>Ubuntu 18.04 LTS</p>
+            <p class="para-column">Certifications I got:</p>
+            <img class="column-redhat" src="res/redhat.png" alt="" />
+          </div>
+        </div>
+        <div class="column" data-aos="fade-left" data-aos-delay="600">
+          <div class="column-logo">
+            <img class="svg-column-pic" src="res/professions.svg" alt="" />
+          </div>
+          <div class="column-title">Coding Instructor</div>
+          <div class="column-description">
+            <p>
+              I genuinely care about people, and love helping students work on
+              their ideas.
+            </p>
+            <p class="para-column">Things I teach:</p>
+            <p>HTML, CSS, JS, React JS, Redux</p>
+            <p>NoSQL, SQL, Firebase</p>f
+            <p class="para-column">Instructor Stats:</p>
+            <p>4 training sessions</p>
+            <p>45+ students</p>
+            <p>400+ teaching hours</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="projects">
+      <div class="projects-content">
+        <div>
+          <p class="projects-text">My Recent Projects</p>
+          <p class="projects-desc-text">
+            Here are a few recent personal projects.
+          </p>
+        </div>
+      </div>
+      <div class="projects-container">
+        <div
+          id="single-project3"
+          data-aos="fade-up-right"
+          data-aos-delay="200"
+          class="single-project"
+        >
+          <img src="res/projet3.png" alt="" />
+          <div id="project3-sub-hover">
+            <div class="project-inside-desc">
+              Ayyur is a Tunisian Metal Band creating unique Black Metal content
+              since 2007.
+            </div>
+            <a target="_blank"
+              ><div class="disabled-button">
+                Check source code <i class="fab fa-github icon-fa"></i></div
+            ></a>
+            <a href="http://www.ayyur.net/" target="_blank"
+              ><div class="project-button">
+                Visit Website <i class="fas fa-chevron-right"></i></div
+            ></a>
+          </div>
+        </div>
+
+        <div
+          id="single-project3"
+          data-aos="fade-up"
+          data-aos-delay="200"
+          class="single-project"
+        >
+          <img src="res/projet1.png" alt="" />
+          <div id="project3-sub-hover">
+            <div class="project-inside-desc">
+              A clone for youtube web app <br />using React JS/ Axios.
+            </div>
+            <a
+              href="https://github.com/KhalifaBL/youtube-clone-reactjs"
+              target="_blank"
+              ><div class="project-button">
+                Check source code <i class="fab fa-github icon-fa"></i></div
+            ></a>
+            <a
+              href="https://khalifabl.github.io/youtube-clone-reactjs/"
+              target="_blank"
+              ><div class="project-button">
+                Visit Website <i class="fas fa-chevron-right"></i></div
+            ></a>
+          </div>
+        </div>
+        <div
+          id="single-project3"
+          data-aos="fade-up-left"
+          data-aos-delay="200"
+          class="single-project"
+        >
+          <img src="res/proj2.png" alt="" />
+          <div id="project3-sub-hover">
+            <div class="project-inside-desc">
+              Koujina is a Tunisian food-focused online social networking
+              service.
+            </div>
+            <a href="https://github.com/KhalifaBL/koujina" target="_blank"
+              ><div class="project-button">
+                Check source code <i class="fab fa-github icon-fa"></i></div
+            ></a>
+            <a
+              href="https://khalifabl.github.io/koujina/recipes.html"
+              target="_blank"
+              ><div class="project-button">
+                Visit Website <i class="fas fa-chevron-right"></i></div
+            ></a>
+          </div>
+        </div>
+      </div>
+
+      <a
+        class="see-more-a"
+        href="https://github.com/KhalifaBL?tab=repositories"
+        target="_blank"
+      >
+        <div class="see-more-button">
+          <i class="fab fa-github icon-fa"></i> See more on Github
+        </div>
+      </a>
+    </div>
+    <!-- <hr class="break-line">-->
+
+    <div id="companies-blue-div" class="blue-background">
+      <div class="about-content">
+        <p class="company-header">My previous internships</p>
+        <p class="company-description-text">
+          I'm proud to have interned at such amazing startups/ companies in the
+          past few years. I've had the chance to work with colleagues from
+          around the globe.
+        </p>
+      </div>
+    </div>
+    <div id="companies">
+      <div class="companies-images">
+        <div class="logo-container">
+          <a href="http://infraplus.net/" target="_blank">
+            <img
+              class="company-logo"
+              id="infra-logo"
+              f
+              src="res/logo-infra.png"
+              alt=""
+            />
+
+            <p class="internship-tag">
+              <i class="fas fa-map-marker-alt blue-color"></i> Paris, FR
+              (online)
+            </p>
+            <p class="internship-tag">
+              <i class="far fa-calendar-alt blue-color"></i> May 2020- Present
+            </p>
+            <p class="internship-tag">
+              <i class="fas fa-crosshairs blue-color"></i> DevOps Intern
+            </p>
+            <p class="internship-tag">
+              <i class="fas fa-link blue-color"></i> www.infraplus.net
+            </p>
+          </a>
+        </div>
+
+        <div class="logo-container">
+          <a href="https://www.gomycode.tn/" target="_blank"
+            ><img class="company-logo" src="res/gmclogos.png" alt="" />
+            <p class="internship-tag">
+              <i class="fas fa-map-marker-alt blue-color"></i> Tunis, TN
+            </p>
+            <p class="internship-tag">
+              <i class="far fa-calendar-alt blue-color"></i> Dec 2019- Present
+            </p>
+            <p class="internship-tag">
+              <i class="fas fa-crosshairs blue-color"></i> Web Instructor
+            </p>
+            <p class="internship-tag">
+              <i class="fas fa-link blue-color"></i> www.gomycode.tn
+            </p>
+          </a>
+        </div>
+        <div class="logo-container">
+          <a href="https://www.accademis.com/" target="_blank"
+            ><img
+              id="accademis-logo"
+              class="company-logo"
+              src="res/accademislogo.png"
+              alt=""
+            />
+            <p class="internship-tag">
+              <i class="fas fa-map-marker-alt blue-color"></i> Athens, GR
+            </p>
+            <p class="internship-tag">
+              <i class="far fa-calendar-alt blue-color"></i> Jul 2019 - Sep 2019
+            </p>
+            <p class="internship-tag">
+              <i class="fas fa-crosshairs blue-color"></i> Web Developer
+            </p>
+            <p class="internship-tag">
+              <i class="fas fa-link blue-color"></i> www.accademis.com
+            </p>
+          </a>
+        </div>
+        <div class="logo-container">
+          <a href="https://www.emporia.edu/" target="_blank"
+            ><img class="company-logo" src="res/esulogos.png" alt="" />
+            <p class="internship-tag">
+              <i class="fas fa-map-marker-alt blue-color"></i> Kansas, USA
+            </p>
+            <p class="internship-tag">
+              <i class="far fa-calendar-alt blue-color"></i> Jan 2019 - May 2019
+            </p>
+            <p class="internship-tag">
+              <i class="fas fa-crosshairs blue-color"></i> Front-end Developer
+            </p>
+            <p class="internship-tag">
+              <i class="fas fa-link blue-color"></i> www.emporia.edu
+            </p>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div id="pictures">
+      <div class="projects-content">
+        <div>
+          <p class="projects-text">My Latest Shots</p>
+          <p class="projects-desc-text">
+            I'm a photography enthusiast, I started learning by myself then I
+            took a photojournalism class at Emporia State University.
+          </p>
+        </div>
+      </div>
+      <div class="pics-container">
+        <div class="single-pic">
+          <img src="res/pic1-min.png" alt="" class="pic" />
+        </div>
+        <div class="single-pic">
+          <img src="res/pic2-min.png" alt="" class="pic" />
+        </div>
+        <div class="single-pic">
+          <img src="res/pic3-min.png" alt="" class="pic" />
+        </div>
+        <div class="single-pic">
+          <img src="res/pic4-m.jpg" alt="" class="pic" />
+        </div>
+        <div class="single-pic">
+          <img src="res/pic5-min.png" alt="" class="pic" />
+        </div>
+        <div class="single-pic">
+          <img src="res/pic6-min.jpg" alt="" class="pic" />
+        </div>
+      </div>
+
+      <a
+        class="see-more-a"
+        href="https://www.flickr.com/photos/khalifabenlazrek/"
+        target="_blank"
+      >
+        <div class="see-more-button">
+          <i class="fab fa-flickr icon-fa"></i> See more on Flickr
+        </div>
+      </a>
+    </div>
+
+    <div id="quick-contact">
+      <div class="contact-title">Start a Project</div>
+      <div class="contact-desc">
+        Interested in working together? <br />
+        Shoot me a message.
+      </div>
+      <a class="see-more-a contact-button" href="contact.html">
+        <div class="see-more-button">Send a Message</div>
+      </a>
+    </div>
+
+    <div id="footer">
+      <div class="logo-footer">
+        <a href="#nav-container"
+          ><img id="image-logo-footer" src="./res/logok-white.png" alt=""
+        /></a>
+      </div>
+      <div class="normal-footer-text">
+        Passionate about Web development, <br />Software development, and
+        Photojournalism.
+      </div>
+      <div class="social-media-links">
+        <a
+          title="Github"
+          class="footer-link"
+          href="https://github.com/KhalifaBL?tab=repositories"
+          target="_blank"
+          ><i class="fab fa-github icon-fa"></i
+        ></a>
+        <a
+          title="linkedin"
+          class="footer-link"
+          href="https://www.linkedin.com/in/khalifabenlazrek/"
+          target="_blank"
+          ><i class="fab fa-linkedin icon-fa"></i
+        ></a>
+
+        <a
+          title="email"
+          class="footer-link"
+          href="mailto:khalifalazreg@gmail.com"
+          target="_blank"
+          ><i class="fas fa-envelope"></i
+        ></a>
+        <a
+          title="YouTube"
+          class="footer-link"
+          href="https://www.youtube.com/channel/UCxmV8YQz-89tg7MdYupMcjQ"
+          target="_blank"
+          ><i class="fab fa-youtube icon-fa"></i
+        ></a>
+        <a
+          title="flickr"
+          class="footer-link"
+          href="https://www.flickr.com/photos/khalifabenlazrek/"
+          target="_blank"
+          ><i class="fab fa-flickr icon-fa"></i
+        ></a>
+      </div>
+      <div class="small-footer-text">
+        Made with love <i class="far fa-heart"></i>
+      </div>
+      <div class="small-footer-text">
+        Copyrights <i class="far fa-copyright"></i> khalifabenlazrek
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script async src="https://unpkg.com/typer-dot-js@0.1.0/typer.js"></script>
+  </body>
+</html>

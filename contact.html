@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ahmed Abdessamad| Contact </title>
+    <link rel="shortcut icon" href="res/logo.png" />
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+        integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
+
+</head>
+
+<body>
+    <div id="nav-container">
+        <div class="logo-nav animated delay-0.7s pulse"><a href="index.html"><img id="image-logo" src="./res/logo.png"
+                    alt=""></a></div>
+        <div class="nav">
+            <ul>
+                <li id="refresh-me"><a href="#about"><i class=" fas fa-redo-alt refresh-button"></i></a> </li>
+                <li><a href="index.html"><i class="fas fa-times cancel-button"></i></a> </li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="main-container">
+        <div id="picture-desc-container"><img id="picture-desc" src="/res/myAvatar-contact.png" alt=""></div>
+
+        <div class="form-header">Thank you for getting in touch! <br>I will reach out to you soon.</div>
+        <div id="notification-alert" class="alert animated tada">
+            <span id="shutme-down" class="closebtn" >&times;</span>
+            <strong>Congratulations!</strong> You've just submitted the form!
+        </div>
+        <form id="contact-form">
+            <div class="form-2-elements">
+                <div>
+                    <label for="">Name</label>
+                    <input type="text" name="" id="name-input" required>
+                </div>
+                <div>
+                    <label for="">Email</label>
+                    <input type="email" id="email-input" required>
+                </div>
+            </div>
+            <label for="">Message</label>
+            <textarea name="" id="message-input" required></textarea>
+            <button class="submit-button" type="submit">
+                <div>Submit </div>
+            </button>
+        </form>
+    </div>
+
+
+
+
+
+
+</body>
+
+<script src="https://www.gstatic.com/firebasejs/7.8.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.8.0/firebase-analytics.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.8.0/firebase-database.js"></script>
+<script src="js/main.js"></script>
+
+</html>

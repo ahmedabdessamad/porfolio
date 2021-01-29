@@ -1,0 +1,781 @@
+@import url("https://fonts.googleapis.com/css?family=Titillium+Web:200,400&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Maven+Pro&display=swap");
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Titillium Web", sans-serif;
+  overflow-x: hidden;
+}
+a {
+  text-decoration: none;
+  color: #2d2c31;
+}
+#main-container {
+  background-color: #f5f4f4;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Titillium Web", "Arial";
+  height: 100vh;
+  width: 100%;
+}
+#nav-container {
+  height: 0;
+  padding-right: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.logo-nav {
+  margin: 15px 0 0 85px;
+}
+#image-logo {
+  height: 44px;
+  vertical-align: middle;
+}
+ul {
+  list-style-type: none;
+}
+li {
+  display: inline-block;
+  margin-right: 20px;
+  font-weight: 300;
+  font-size: 20px;
+}
+li:hover > a {
+  color: #3399d3;
+  -webkit-transition: color 70ms linear;
+  -ms-transition: color 70ms linear;
+  transition: color 70ms linear;
+}
+li:last-child {
+  border: 2px solid #3399d3;
+  border-radius: 20px;
+  padding: 2px 15px 2px 15px;
+  transition: background-color 300ms linear;
+}
+.nav ul > a {
+  color: #3399d3;
+  transition: color 300ms linear;
+}
+li:last-child:hover {
+  background-color: #3399d3;
+  -webkit-transition: background-color 500ms linear;
+  -ms-transition: background-color 500ms linear;
+  transition: background-color 500ms linear;
+}
+.nav ul > a:hover {
+  color: white;
+  -webkit-transition: color 300ms linear;
+  -ms-transition: color 300ms linear;
+  transition: color 300ms linear;
+}
+#picture-desc-container {
+  margin-top: 100px;
+}
+#picture-desc {
+  height: 200px;
+}
+#typer-container {
+  font-family: "Titillium Web", "Arial";
+  font-weight: 200;
+  width: 700px;
+  font-size: 34px;
+  color: #2d2c31;
+  cursor: pointer;
+  margin-top: 100px;
+}
+#typer-container > h1 {
+  font-size: 42px;
+}
+#typer-greet {
+  font-size: 40px;
+}
+.cursor {
+  color: black;
+  font-weight: 300;
+}
+#typer-hr {
+  margin-top: -25px;
+  height: 0.3px;
+}
+#typer-description {
+  margin-top: -10px;
+  font-size: 27px;
+}
+@media (max-width: 640px) {
+  #nav-container {
+    height: 0;
+    padding-right: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  .logo-nav {
+    margin: 18px 0 -3px 30px;
+  }
+  #image-logo {
+    height: 32px;
+  }
+  #typer-container {
+    font-family: "Titillium Web", "Arial";
+    font-weight: 200;
+    width: 300px;
+    color: #2d2c31;
+    cursor: pointer;
+  }
+  #typer-container > h1 {
+    font-size: 23px;
+  }
+  #typer-hr {
+    margin-top: -15px;
+  }
+  #typer-greet {
+    font-size: 24px;
+  }
+  #typer-description {
+    margin-top: -10px;
+    font-size: 15px;
+  }
+  li {
+    display: inline-block;
+    margin-right: 5px;
+    font-weight: 300;
+    font-size: 18px;
+  }
+  ul {
+    margin-top: 20px;
+    margin-left: -23px;
+  }
+  li:last-child {
+    border: 1px solid #3399d3;
+    border-radius: 20px;
+    padding: 1px 10px 1px 10px;
+  }
+  #picture-desc-container {
+    margin-top: 90px;
+  }
+  #picture-desc {
+    height: 200px;
+  }
+}
+.blue-background {
+  background-color: #3399d3;
+}
+i {
+  margin-right: 3px;
+}
+.break-line {
+  border-top: 0.1px solid #e6ecf8;
+}
+.blue-color {
+  color: #3399d3;
+}
+#about {
+  height: 600px;
+  display: flex;
+  justify-content: center;
+}
+.about-content {
+  height: 300px;
+  width: 62%;
+  padding-top: 50px;
+  text-align: center;
+}
+.greeting-text {
+  font-family: "Titillium Web", "Arial";
+  font-weight: 400;
+  font-size: 28px;
+  color: #fff;
+}
+.description-text {
+  font-family: "Titillium Web", "Arial";
+  font-weight: 200;
+  font-size: 20px;
+  color: #fff;
+}
+.university-name {
+  color: white;
+  font-size: 20px;
+}
+a sup i {
+  font-size: 12px;
+  color: white;
+}
+.university-name:hover {
+  cursor: pointer;
+  color: white;
+}
+@media (max-width: 640px) {
+  #about {
+    height: 550px;
+    display: flex;
+    justify-content: center;
+  }
+  .about-content {
+    height: 300px;
+    width: 90%;
+    padding-top: 50px;
+    text-align: center;
+  }
+  .greeting-text {
+    font-family: "Titillium Web", "Arial";
+    font-weight: 400;
+    font-size: 22px;
+    color: #fff;
+  }
+  .description-text {
+    font-family: "Titillium Web", "Arial";
+    font-weight: 200;
+    font-size: 15px;
+    color: #fff;
+  }
+  .university-name {
+    color: white;
+    font-size: 15px;
+  }
+  .university-name i {
+    font-size: 10px;
+  }
+}
+#resume {
+  display: flex;
+  justify-content: center;
+}
+.resume-container {
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: -150px;
+  background-color: white;
+  box-shadow: 0 5px 5px 0 rgba(233, 240, 243, 0.5), 0 0 0 1px #e6ecf8;
+  height: 100%;
+}
+.column {
+  text-align: center;
+  padding: 70px 45px;
+  width: 290px;
+}
+.column:first-child,
+.column:nth-child(2) {
+  border-right: 1px solid #e6ecf8;
+}
+.column-title {
+  font-family: "Maven Pro", sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  margin-top: 30px;
+}
+.column-redhat {
+  height: 150px;
+}
+.column-description {
+  font-family: "Titillium Web", "Arial";
+  font-weight: 300;
+  font-size: 19px;
+  margin-top: 50px;
+}
+.svg-column-pic {
+  height: 70px;
+}
+.para-column {
+  color: #3399d3;
+  font-weight: 400;
+  font-size: 20px;
+  margin-top: 40px;
+}
+@media (max-width: 640px) {
+  .resume-container {
+    border-radius: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: -150px;
+    background-color: white;
+    box-shadow: 0 5px 5px 0 rgba(233, 240, 243, 0.5), 0 0 0 1px #e6ecf8;
+    height: 100%;
+  }
+  .column {
+    text-align: center;
+    padding: 70px 45px;
+    width: 230px;
+  }
+  .column-title {
+    font-family: "Maven Pro", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 30px;
+  }
+  .column-description {
+    font-family: "Titillium Web", "Arial";
+    font-weight: 300;
+    font-size: 19px;
+    margin-top: 50px;
+  }
+  .column:first-child,
+  .column:nth-child(2) {
+    border-bottom: 1px solid #e6ecf8;
+    border-right: 0;
+  }
+}
+#projects {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 120px;
+}
+.projects-content {
+  height: 300px;
+  width: 60%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.projects-text {
+  font-family: "Titillium Web", "Arial";
+  font-weight: 400;
+  font-size: 35px;
+  color: black;
+}
+.projects-desc-text {
+  font-family: "Titillium Web", "Arial";
+  font-weight: 200;
+  font-size: 20px;
+  margin-top: -25px;
+  color: black;
+}
+.projects-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: -60px;
+  width: 100%;
+}
+.single-project {
+  background-size: cover;
+  box-shadow: 0 2px 2px 0 rgba(156, 161, 163, 0.5), 0 0 0 1px #e6ecf8;
+  border-radius: 20px;
+  height: 230px;
+  width: 350px;
+  margin: 20px;
+}
+#single-project1 {
+  background-image: url("../res/");
+}
+#single-project2 {
+  background-image: url("../res/proj.png");
+}
+.single-project img {
+  height: 100%;
+  border-radius: 20px;
+}
+#single-project3:hover {
+  cursor: pointer;
+}
+#project3-sub-hover {
+  display: none;
+  transition: background-color 0.5s ease;
+  background-color: white;
+}
+.project-inside-desc {
+  padding-bottom: 25px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 20px;
+}
+.single-project > img {
+  transform: scale(1.02);
+  transition: transform 0.3s ease-in-out;
+}
+.single-project:hover img {
+  transform: scale(1);
+  transition: transform 500ms ease-in-out;
+}
+.single-project img {
+  -webkit-filter: blur(0);
+  filter: blur(0);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+.single-project:hover img {
+  -webkit-filter: blur(3px);
+  filter: blur(2px);
+}
+#single-project3:hover > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.95;
+  text-align: center;
+  background-color: #121c38;
+  transition: background-color 0.8s ease;
+  color: white;
+  border-radius: 20px;
+  height: 100%;
+  width: 100%;
+  font-size: 18px;
+}
+.disabled-button {
+  color: white;
+  border: 2px solid #50585c;
+  border-radius: 30px;
+  padding-top: 4px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 160px;
+  font-size: 15px;
+  height: 30px;
+  margin: 4px;
+  align-items: center;
+  vertical-align: center;
+}
+.disabled-button:hover {
+  background-color: #50585c;
+  -webkit-transition: background-color 500ms ease-in-out;
+  -ms-transition: background-color 500ms ease-in-out;
+  cursor: not-allowed;
+  transition: background-color 500ms ease-in-out;
+}
+.project-button {
+  color: white;
+  border: 2px solid #3399d3;
+  border-radius: 30px;
+  padding-top: 4px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 160px;
+  font-size: 15px;
+  height: 30px;
+  margin: 4px;
+  align-items: center;
+  vertical-align: center;
+  transition: background-color 300ms ease-in-out;
+}
+.project-button:hover {
+  background-color: #3399d3;
+  -webkit-transition: background-color 500ms ease-in-out;
+  -ms-transition: background-color 500ms ease-in-out;
+  cursor: pointer;
+  transition: background-color 500ms ease-in-out;
+}
+.see-more-a {
+  border: 2px solid #3399d3;
+  border-radius: 30px;
+  padding: 8px 12px 8px 12px;
+  margin-top: 30px;
+  font-size: 16px;
+  font-weight: 800;
+  transition: background-color 300ms ease-in-out;
+}
+.see-more-a:hover {
+  background-color: #3399d3;
+  -webkit-transition: background-color 500ms ease-in-out;
+  -ms-transition: background-color 500ms ease-in-out;
+  cursor: pointer;
+  transition: background-color 500ms ease-in-out;
+}
+.see-more-a > div {
+  color: #3399d3;
+  -webkit-transition: color 300ms ease-in-out;
+  -ms-transition: color 300ms ease-in-out;
+  transition: color 300ms ease-in-out;
+}
+.see-more-a:hover > div {
+  color: white;
+  -webkit-transition: color 500ms ease-in-out;
+  -ms-transition: color 500ms ease-in-out;
+  transition: color 500ms ease-in-out;
+}
+.icon-fa {
+  margin-right: 5px;
+}
+@media (max-width: 640px) {
+  .projects-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: -10px;
+    width: 100%;
+  }
+}
+#companies {
+  height: 450px;
+  margin-top: -220px;
+}
+#companies-blue-div {
+  height: 450px;
+  display: flex;
+  justify-content: center;
+}
+.companies-content {
+  height: 100%;
+  width: 75%;
+  padding-top: 60px;
+  text-align: center;
+}
+.companies-images {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.logo-container {
+  width: 160px;
+  height: 200px;
+  padding: 35px;
+  margin: 40px;
+  text-align: center;
+  padding-bottom: 15px;
+  transition: box-shadow 0.3s;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 0 3px 3px 0 rgba(233, 240, 243, 0.5), 0 0 0 1px #e6ecf8;
+}
+.logo-container:hover {
+  cursor: pointer;
+  box-shadow: 0 0 9px rgba(33, 33, 33, 0.2);
+}
+.company-logo {
+  display: block;
+  height: auto;
+  width: 100%;
+}
+.company-header {
+  font-family: "Titillium Web", "Arial";
+  font-weight: 400;
+  font-size: 35px;
+  color: white;
+}
+#infra-logo {
+  margin-top: -10px;
+  background-color: #9e9b9b;
+  border-radius: 5px;
+}
+.internship-tag {
+  font-size: 13.5px;
+}
+.company-description-text {
+  font-family: "Titillium Web", "Arial";
+  font-weight: 200;
+  font-size: 21px;
+  color: #fff;
+}
+@media (max-width: 640px) {
+  #companies-blue-div {
+    height: 350px;
+    display: flex;
+    justify-content: center;
+  }
+  #companies {
+    height: 1300px;
+    display: flex;
+    justify-content: center;
+    margin-top: -150px;
+  }
+  .logo-container {
+    width: 160px;
+    height: 200px;
+    padding: 35px;
+    margin: 5px;
+    padding-bottom: 15px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0 5px 5px 0 rgba(233, 240, 243, 0.5), 0 0 0 1px #e6ecf8;
+  }
+
+  .company-header {
+    font-family: "Titillium Web", "Arial";
+    font-weight: 400;
+    font-size: 25px;
+    color: white;
+  }
+  .company-description-text {
+    font-family: "Titillium Web", "Arial";
+    font-weight: 200;
+    font-size: 14px;
+    color: #fff;
+  }
+}
+#pictures {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 120px;
+}
+.pics-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.single-pic {
+  margin: 20px;
+}
+.pic {
+  height: 300px;
+  width: 430px;
+  border-radius: 20px;
+}
+@media (max-width: 640px) {
+  .pic {
+    height: 200px;
+    width: 320px;
+    border-radius: 20px;
+  }
+}
+#quick-contact {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: -40px auto 0 auto;
+  height: 150px;
+  width: 80%;
+  background-color: #131c39;
+  border-radius: 12px;
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px #141c3a;
+}
+.contact-title {
+  color: white;
+  font-size: 40px;
+  font-weight: 300;
+}
+.contact-desc {
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
+}
+.contact-button {
+  margin-top: 0;
+}
+.contact-button > div {
+  color: white;
+}
+@media (max-width: 640px) {
+  #quick-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 0 auto 0 auto;
+    height: 200px;
+    width: 80%;
+    text-align: center;
+    background-color: #131c39;
+    border-radius: 12px;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px #141c3a;
+  }
+  .contact-title {
+    color: white;
+    font-size: 29px;
+    margin-bottom: 20px;
+    font-weight: 300;
+  }
+  .contact-desc {
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+  }
+  .contact-button {
+    margin-top: 30px;
+  }
+}
+#footer {
+  background-color: #3399d3;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-top: -75px;
+  align-items: center;
+  padding-bottom: 20px;
+}
+#image-logo-footer {
+  height: 60px;
+}
+.normal-footer-text {
+  font-size: 20px;
+  text-align: center;
+  color: #ade1ff;
+  font-weight: 300;
+}
+.small-footer-text {
+  font-size: 15px;
+  color: #ade1ff;
+  font-weight: 300;
+}
+.social-media-links {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.footer-link {
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 100%;
+  color: white;
+  margin: 5px;
+  padding-left: 0.8em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-right: 0.8em;
+  text-align: center;
+  -webkit-transition: background-color 300ms ease-in-out;
+  -ms-transition: background-color 300ms ease-in-out;
+  transition: background-color 300ms ease-in-out;
+}
+.footer-link > i {
+  margin: 0 auto;
+  font-size: 18px;
+  transition: color 300ms ease-in-out;
+}
+.footer-link:hover > i {
+  color: #3399d3;
+  transition: color 500ms ease-in-out;
+}
+.footer-link:hover {
+  background-color: white;
+  -webkit-transition: background-color 500ms ease-in-out;
+  -ms-transition: background-color 500ms ease-in-out;
+  transition: background-color 500ms ease-in-out;
+}
+@media (max-width: 640px) {
+  #footer {
+    background-color: #3399d3;
+    height: 450px;
+    margin-top: -100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 20px;
+  }
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 10px 10px transparent;
+  border: solid 3px transparent;
+}
+::-webkit-scrollbar-thumb {
+  box-shadow: inset 0 0 10px 10px #121c38;
+  border: solid 3px transparent;
+}
